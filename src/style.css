@@ -1,0 +1,45 @@
+body{
+    padding: 100px;
+    padding-top: 50px;
+}
+.submit-area{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px gray;
+}
+.deposit{
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px;
+    background:linear-gradient(160deg, #401F71 50%, #430A5D);
+}
+.withdraw{
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px;
+    background: linear-gradient(160deg, #E8751A 25%,#FBA834);
+}
+.balance{
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px;
+    background:linear-gradient(160deg, #008DDA 50%,#41C9E2);
+}
+.col-md-4{
+color: #fff;
+}
+#transaction-area{
+    display: none;
+}
+@media (max-width:480px){
+    ::placeholder{
+        font-size: 12px;
+    }
+    body{
+        padding: 10px;
+    }
+    .submit-area{
+    
+    padding: 20px;}
+}
